@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		743EA5762092E24300925361 /* README in Resources */ = {isa = PBXBuildFile; fileRef = 743EA5752092E24300925361 /* README */; };
 		747A2E722073B96100C84E1B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 747A2E712073B96100C84E1B /* AppDelegate.swift */; };
 		747A2E742073B96100C84E1B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 747A2E732073B96100C84E1B /* ViewController.swift */; };
 		747A2E772073B96100C84E1B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 747A2E752073B96100C84E1B /* Main.storyboard */; };
@@ -14,6 +15,12 @@
 		747A2E7C2073B96100C84E1B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 747A2E7A2073B96100C84E1B /* LaunchScreen.storyboard */; };
 		747A2E872073B96100C84E1B /* SIT305_Assignment_2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 747A2E862073B96100C84E1B /* SIT305_Assignment_2Tests.swift */; };
 		747A2E922073B96100C84E1B /* SIT305_Assignment_2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 747A2E912073B96100C84E1B /* SIT305_Assignment_2UITests.swift */; };
+		74DBB7C12088C93F0072DB6E /* ShelterPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74DBB7C02088C93F0072DB6E /* ShelterPageViewController.swift */; };
+		74DBB7C32088C9FA0072DB6E /* BeachPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74DBB7C22088C9FA0072DB6E /* BeachPageViewController.swift */; };
+		74DBB7C52088CA0D0072DB6E /* ForestPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74DBB7C42088CA0D0072DB6E /* ForestPageViewController.swift */; };
+		74DBB7C72088CA260072DB6E /* CavePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74DBB7C62088CA260072DB6E /* CavePageViewController.swift */; };
+		74DBB7CF2088CC070072DB6E /* item.json in Resources */ = {isa = PBXBuildFile; fileRef = 74DBB7CE2088CC070072DB6E /* item.json */; };
+		74DBB7D12088D1680072DB6E /* SeaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74DBB7D02088D1680072DB6E /* SeaViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +41,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		743EA5752092E24300925361 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
 		747A2E6E2073B96100C84E1B /* SIT305 Assignment-2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SIT305 Assignment-2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		747A2E712073B96100C84E1B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		747A2E732073B96100C84E1B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +55,12 @@
 		747A2E8D2073B96100C84E1B /* SIT305 Assignment-2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SIT305 Assignment-2UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		747A2E912073B96100C84E1B /* SIT305_Assignment_2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SIT305_Assignment_2UITests.swift; sourceTree = "<group>"; };
 		747A2E932073B96100C84E1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74DBB7C02088C93F0072DB6E /* ShelterPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShelterPageViewController.swift; sourceTree = "<group>"; };
+		74DBB7C22088C9FA0072DB6E /* BeachPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BeachPageViewController.swift; sourceTree = "<group>"; };
+		74DBB7C42088CA0D0072DB6E /* ForestPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForestPageViewController.swift; sourceTree = "<group>"; };
+		74DBB7C62088CA260072DB6E /* CavePageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CavePageViewController.swift; sourceTree = "<group>"; };
+		74DBB7CE2088CC070072DB6E /* item.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = item.json; sourceTree = "<group>"; };
+		74DBB7D02088D1680072DB6E /* SeaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SeaViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,8 +115,15 @@
 				747A2E732073B96100C84E1B /* ViewController.swift */,
 				747A2E752073B96100C84E1B /* Main.storyboard */,
 				747A2E782073B96100C84E1B /* Assets.xcassets */,
+				74DBB7C02088C93F0072DB6E /* ShelterPageViewController.swift */,
+				74DBB7C22088C9FA0072DB6E /* BeachPageViewController.swift */,
+				74DBB7C42088CA0D0072DB6E /* ForestPageViewController.swift */,
+				74DBB7C62088CA260072DB6E /* CavePageViewController.swift */,
+				74DBB7D02088D1680072DB6E /* SeaViewController.swift */,
+				743EA5752092E24300925361 /* README */,
 				747A2E7A2073B96100C84E1B /* LaunchScreen.storyboard */,
 				747A2E7D2073B96100C84E1B /* Info.plist */,
+				74DBB7CD2088CBD30072DB6E /* data */,
 			);
 			path = "SIT305 Assignment-2";
 			sourceTree = "<group>";
@@ -123,6 +144,14 @@
 				747A2E932073B96100C84E1B /* Info.plist */,
 			);
 			path = "SIT305 Assignment-2UITests";
+			sourceTree = "<group>";
+		};
+		74DBB7CD2088CBD30072DB6E /* data */ = {
+			isa = PBXGroup;
+			children = (
+				74DBB7CE2088CC070072DB6E /* item.json */,
+			);
+			name = data;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,6 +261,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				743EA5762092E24300925361 /* README in Resources */,
+				74DBB7CF2088CC070072DB6E /* item.json in Resources */,
 				747A2E7C2073B96100C84E1B /* LaunchScreen.storyboard in Resources */,
 				747A2E792073B96100C84E1B /* Assets.xcassets in Resources */,
 				747A2E772073B96100C84E1B /* Main.storyboard in Resources */,
@@ -260,7 +291,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				747A2E742073B96100C84E1B /* ViewController.swift in Sources */,
+				74DBB7C12088C93F0072DB6E /* ShelterPageViewController.swift in Sources */,
+				74DBB7C72088CA260072DB6E /* CavePageViewController.swift in Sources */,
 				747A2E722073B96100C84E1B /* AppDelegate.swift in Sources */,
+				74DBB7C32088C9FA0072DB6E /* BeachPageViewController.swift in Sources */,
+				74DBB7D12088D1680072DB6E /* SeaViewController.swift in Sources */,
+				74DBB7C52088CA0D0072DB6E /* ForestPageViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -363,12 +399,13 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -414,10 +451,11 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -429,10 +467,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = R9M78A95BT;
 				INFOPLIST_FILE = "SIT305 Assignment-2/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "deakin.SIT305-Assignment-2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -444,10 +483,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = R9M78A95BT;
 				INFOPLIST_FILE = "SIT305 Assignment-2/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "deakin.SIT305-Assignment-2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -460,10 +500,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = R9M78A95BT;
 				INFOPLIST_FILE = "SIT305 Assignment-2Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "deakin.SIT305-Assignment-2Tests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SIT305 Assignment-2.app/SIT305 Assignment-2";
 			};
@@ -477,10 +518,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = R9M78A95BT;
 				INFOPLIST_FILE = "SIT305 Assignment-2Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "deakin.SIT305-Assignment-2Tests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SIT305 Assignment-2.app/SIT305 Assignment-2";
 			};
@@ -493,10 +535,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = R9M78A95BT;
 				INFOPLIST_FILE = "SIT305 Assignment-2UITests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "deakin.SIT305-Assignment-2UITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = "SIT305 Assignment-2";
 			};
@@ -509,10 +552,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = R9M78A95BT;
 				INFOPLIST_FILE = "SIT305 Assignment-2UITests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "deakin.SIT305-Assignment-2UITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = "SIT305 Assignment-2";
 			};

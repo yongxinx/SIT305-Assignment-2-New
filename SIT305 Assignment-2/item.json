@@ -1,0 +1,32 @@
+{
+    "item": [
+             {
+             "itemName": "wood",
+             "existingSecne": "forest","beach"
+             },
+             {
+             "itemName": "meat",
+             "existingSecne": "forest","beach"
+             },
+             {
+             "itemName": "fish",
+             "existingSecne": "sea"
+             },
+             {
+             "itemName": "water",
+             "existingSecne": "sea"
+             },
+             {
+             "itemName": "kindling",
+             "existingSecne": "forest","beach"
+             },
+             {
+             "itemName": "clothes",
+             "existingSecne": "forest"
+             },
+             {
+             "itemName": "compass",
+             "existingSecne": "beach"
+             },
+    ]
+}
