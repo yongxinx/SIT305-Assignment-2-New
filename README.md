@@ -7,4 +7,4 @@ New version of my Assignment 2
 # Nick comments 27/April
 - This is the new repository for my SIT305 Assignment-2.
 - Stuent Name : YONGXIN XIE/Nick
-- SIT : 215476964.
+- SId : 215476964.
