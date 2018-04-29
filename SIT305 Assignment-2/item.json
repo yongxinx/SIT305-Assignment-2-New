@@ -2,11 +2,11 @@
     "item": [
              {
              "itemName": "wood",
-             "existingSecne": "forest","beach"
+             "existingSecne": "forest"
              },
              {
              "itemName": "meat",
-             "existingSecne": "forest","beach"
+             "existingSecne": "forest"
              },
              {
              "itemName": "fish",
@@ -18,7 +18,7 @@
              },
              {
              "itemName": "kindling",
-             "existingSecne": "forest","beach"
+             "existingSecne": "forest"
              },
              {
              "itemName": "clothes",
