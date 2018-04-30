@@ -10,35 +10,26 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    @IBOutlet weak var testLabel: UILabel!
+    @IBOutlet weak var gameChatLabel: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        if let path = Bundle.main.path(forResource: "item", ofType: "json") {
+        if let path = Bundle.main.path(forResource: "gameChat", ofType: "json") {
             do {
                 let data = try Data(contentsOf: URL(fileURLWithPath: path), options: .mappedIfSafe)
                 let jsonResult = try JSONSerialization.jsonObject(with: data, options: .mutableLeaves)
-                if let jsonResult = jsonResult as? Dictionary<String, AnyObject>, let item = jsonResult["item"] as? [Any] {
-                    print(item)
+                if let jsonResult = jsonResult as? Dictionary<String, AnyObject>, let gameChat = jsonResult["gameChat"] as? [Any] {
+                    print(gameChat)
+                    self.gameChatLabel.text = "\(gameChat)"
+//                    "\(json.valueForKeyPath("results.definition")!)"
+
                 }
             } catch {
-                // handle error
+                print("Error!")
             }
         }
         
-      
-//        let path = Bundle.main.path(forResource: "item", ofType: "json")
-//        let url = URL(fileURLWithPath: path! )
-//
-//        do{
-//            let data = try Data(contentsOf: url)
-//            let item = try JSONDecoder().decode([String : [Int]].self, from: data)
-//            print(item)
-//        }
-//        catch{
-//
-//        }
     }
 
 

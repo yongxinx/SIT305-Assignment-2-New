@@ -1,0 +1,20 @@
+{
+    "inventory": [
+                  {
+                  "name": "meat",
+                  "quanlity": "0"
+                  },
+                  {
+                  "name": "water",
+                  "quanlity": "1"
+                  },
+                  {
+                  "name": "fish",
+                  "quanlity": "2"
+                  },
+                  {
+                  "name": "compass",
+                  "quanlity": "1"
+                  }
+    ],
+}
