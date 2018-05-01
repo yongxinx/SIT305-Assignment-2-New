@@ -8,3 +8,4 @@
 Still working on:
 - Inventory displayed in table view in progress
 - Dialog system/UX design
+- Data structure
