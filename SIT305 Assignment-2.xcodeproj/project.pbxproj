@@ -21,8 +21,8 @@
 		74DBB7C72088CA260072DB6E /* CavePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74DBB7C62088CA260072DB6E /* CavePageViewController.swift */; };
 		74DBB7D12088D1680072DB6E /* SeaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74DBB7D02088D1680072DB6E /* SeaViewController.swift */; };
 		DD7BCD642096FB27000060CC /* inventory.json in Resources */ = {isa = PBXBuildFile; fileRef = DD7BCD632096FB27000060CC /* inventory.json */; };
-		DD7BCD662096FDA6000060CC /* InventoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7BCD652096FDA6000060CC /* InventoryTableViewController.swift */; };
 		DD7BCD6820970845000060CC /* gameChat.json in Resources */ = {isa = PBXBuildFile; fileRef = DD7BCD6720970845000060CC /* gameChat.json */; };
+		DDFD611F20988576007DDB20 /* InvenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDFD611E20988576007DDB20 /* InvenViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,8 +63,8 @@
 		74DBB7C62088CA260072DB6E /* CavePageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CavePageViewController.swift; sourceTree = "<group>"; };
 		74DBB7D02088D1680072DB6E /* SeaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SeaViewController.swift; sourceTree = "<group>"; };
 		DD7BCD632096FB27000060CC /* inventory.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = inventory.json; sourceTree = "<group>"; };
-		DD7BCD652096FDA6000060CC /* InventoryTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InventoryTableViewController.swift; sourceTree = "<group>"; };
 		DD7BCD6720970845000060CC /* gameChat.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = gameChat.json; sourceTree = "<group>"; };
+		DDFD611E20988576007DDB20 /* InvenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvenViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,7 +122,7 @@
 				74DBB7C02088C93F0072DB6E /* ShelterPageViewController.swift */,
 				74DBB7C42088CA0D0072DB6E /* ForestPageViewController.swift */,
 				74DBB7C62088CA260072DB6E /* CavePageViewController.swift */,
-				DD7BCD652096FDA6000060CC /* InventoryTableViewController.swift */,
+				DDFD611E20988576007DDB20 /* InvenViewController.swift */,
 				74DBB7D02088D1680072DB6E /* SeaViewController.swift */,
 				743EA5752092E24300925361 /* README */,
 				743EA57B2092F9AD00925361 /* license.txt */,
@@ -303,7 +303,7 @@
 			files = (
 				747A2E742073B96100C84E1B /* ViewController.swift in Sources */,
 				74DBB7C12088C93F0072DB6E /* ShelterPageViewController.swift in Sources */,
-				DD7BCD662096FDA6000060CC /* InventoryTableViewController.swift in Sources */,
+				DDFD611F20988576007DDB20 /* InvenViewController.swift in Sources */,
 				74DBB7C72088CA260072DB6E /* CavePageViewController.swift in Sources */,
 				747A2E722073B96100C84E1B /* AppDelegate.swift in Sources */,
 				74DBB7D12088D1680072DB6E /* SeaViewController.swift in Sources */,

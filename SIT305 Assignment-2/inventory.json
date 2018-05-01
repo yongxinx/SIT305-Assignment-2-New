@@ -2,19 +2,19 @@
     "inventory": [
                   {
                   "name": "meat",
-                  "quanlity": "0"
+                  "qty": "0"
                   },
                   {
                   "name": "water",
-                  "quanlity": "1"
+                  "qty": "1"
                   },
                   {
                   "name": "fish",
-                  "quanlity": "2"
+                  "qty": "2"
                   },
                   {
                   "name": "compass",
-                  "quanlity": "1"
+                  "qty": "1"
                   }
     ],
 }
