@@ -4,3 +4,8 @@
 - Reading in a JSON file in swift has been implemented/Data sturcture needs a lot of work
 # Nick comments 30/April
 - Data contents updated
+# Nick comments 30/April
+Still working on:
+- Inventory displayed in table view in progress
+- Dialog system/UX design
+- Data structure
