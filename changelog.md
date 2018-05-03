@@ -17,3 +17,6 @@ Still working on:
 - Dialog system/UX design
 - Data structure
 - Auto audio plays when app starts
+# Nick comments 3/May
+- Inventory page in progress
+- Data structure in progress
