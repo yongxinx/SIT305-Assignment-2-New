@@ -25,7 +25,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let path = Bundle.main.path(forResource: "Drama", ofType: "mp3")!
+        let path = Bundle.main.path(forResource: "Sad Cinematic", ofType: "mp3")!
         let url = URL(fileURLWithPath: path)
         do {
             player = try AVAudioPlayer(contentsOf: url)
@@ -40,6 +40,7 @@ class ViewController: UIViewController {
         self.player.play()
         gameNameLbl.isHidden = true
         tapToStartButton.isHidden = true
+        shelterButton.isHidden = false
         gameChatLabel.isHidden = false; do {
             self.downloadJSON() {
             }

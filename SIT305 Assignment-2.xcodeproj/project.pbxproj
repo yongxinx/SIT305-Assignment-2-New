@@ -20,7 +20,7 @@
 		74DBB7C52088CA0D0072DB6E /* ForestPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74DBB7C42088CA0D0072DB6E /* ForestPageViewController.swift */; };
 		74DBB7C72088CA260072DB6E /* CavePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74DBB7C62088CA260072DB6E /* CavePageViewController.swift */; };
 		74DBB7D12088D1680072DB6E /* SeaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74DBB7D02088D1680072DB6E /* SeaViewController.swift */; };
-		DD1E269E209985BA00D483A1 /* Drama.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DD1E269D209985BA00D483A1 /* Drama.mp3 */; };
+		DD1E269E209985BA00D483A1 /* Sad Cinematic.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DD1E269D209985BA00D483A1 /* Sad Cinematic.mp3 */; };
 		DD7BCD642096FB27000060CC /* inventory.json in Resources */ = {isa = PBXBuildFile; fileRef = DD7BCD632096FB27000060CC /* inventory.json */; };
 		DD7BCD6820970845000060CC /* gameChat.json in Resources */ = {isa = PBXBuildFile; fileRef = DD7BCD6720970845000060CC /* gameChat.json */; };
 		DDFD611F20988576007DDB20 /* InvenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDFD611E20988576007DDB20 /* InvenViewController.swift */; };
@@ -63,7 +63,7 @@
 		74DBB7C42088CA0D0072DB6E /* ForestPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForestPageViewController.swift; sourceTree = "<group>"; };
 		74DBB7C62088CA260072DB6E /* CavePageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CavePageViewController.swift; sourceTree = "<group>"; };
 		74DBB7D02088D1680072DB6E /* SeaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SeaViewController.swift; sourceTree = "<group>"; };
-		DD1E269D209985BA00D483A1 /* Drama.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Drama.mp3; sourceTree = "<group>"; };
+		DD1E269D209985BA00D483A1 /* Sad Cinematic.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Sad Cinematic.mp3"; sourceTree = "<group>"; };
 		DD7BCD632096FB27000060CC /* inventory.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = inventory.json; sourceTree = "<group>"; };
 		DD7BCD6720970845000060CC /* gameChat.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = gameChat.json; sourceTree = "<group>"; };
 		DDFD611E20988576007DDB20 /* InvenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvenViewController.swift; sourceTree = "<group>"; };
@@ -166,7 +166,7 @@
 		DD1E269F20998A5B00D483A1 /* music */ = {
 			isa = PBXGroup;
 			children = (
-				DD1E269D209985BA00D483A1 /* Drama.mp3 */,
+				DD1E269D209985BA00D483A1 /* Sad Cinematic.mp3 */,
 			);
 			name = music;
 			sourceTree = "<group>";
@@ -282,7 +282,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				743EA57C2092F9AD00925361 /* license.txt in Resources */,
-				DD1E269E209985BA00D483A1 /* Drama.mp3 in Resources */,
+				DD1E269E209985BA00D483A1 /* Sad Cinematic.mp3 in Resources */,
 				743EA5762092E24300925361 /* README in Resources */,
 				DD7BCD642096FB27000060CC /* inventory.json in Resources */,
 				747A2E7C2073B96100C84E1B /* LaunchScreen.storyboard in Resources */,
