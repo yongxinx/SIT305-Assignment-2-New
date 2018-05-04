@@ -24,7 +24,7 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        //Build path to access the audio file
         let path = Bundle.main.path(forResource: "Sad Cinematic", ofType: "mp3")!
         let url = URL(fileURLWithPath: path)
         do {
@@ -35,7 +35,7 @@ class ViewController: UIViewController {
         }
         
 }
-    //create action for start button
+    //Create action for start button
     @IBAction func startButton(_ sender: Any) {
         self.player.play()
         gameNameLbl.isHidden = true
@@ -47,18 +47,18 @@ class ViewController: UIViewController {
         }
 
     }
-    //load json file for system dialog
+    //Load json file for system dialog
     func downloadJSON(completed: @escaping () -> ()) {
-        
+        //Create path to access the gameChat.json file
         if let path = Bundle.main.path(forResource: "gameChat", ofType: "json") {
             do {
                 let data = try Data(contentsOf: URL(fileURLWithPath: path), options: .mappedIfSafe)
                 let jsonResult = try JSONSerialization.jsonObject(with: data, options: .mutableLeaves)
                 if let jsonResult = jsonResult as? Dictionary<String, AnyObject>, let gameChat = jsonResult["gameChat"] as? [Any] {
-                    print(gameChat)
-                    self.gameChatLabel.text = "\(gameChat)"
-                    //"\(json.valueForKeyPath("results.definition")!)"
-                    
+                    for gamechat in gameChat {
+                    print(gamechat)
+                    self.gameChatLabel.text = "\(gamechat)"
+                    }
                 }
             } catch {
                 print("Error!")
