@@ -20,3 +20,6 @@ Still working on:
 # Nick comments 3/May
 - Inventory page in progress
 - Data structure in progress
+# Nick comments 4/May
+- Inventory page in progress
+- Data structure in progress
