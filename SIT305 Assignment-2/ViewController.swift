@@ -54,10 +54,9 @@ class ViewController: UIViewController {
             do {
                 let data = try Data(contentsOf: URL(fileURLWithPath: path), options: .mappedIfSafe)
                 let jsonResult = try JSONSerialization.jsonObject(with: data, options: .mutableLeaves)
-                if let jsonResult = jsonResult as? Dictionary<String, AnyObject>, let gameChat = jsonResult["gameChat"] as? [Any] {
-                    for gamechat in gameChat {
-                    print(gamechat)
-                    self.gameChatLabel.text = "\(gamechat)"
+                if let jsonResult = jsonResult as? Dictionary<String, AnyObject>, let gamechats = jsonResult["gameChat"] as? [AnyObject] {
+                    for gamechat in gamechats {
+                        print(gamechat)
                     }
                 }
             } catch {
