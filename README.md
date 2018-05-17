@@ -27,10 +27,12 @@ Navigation controller was used to picture the map.
 
 # Compile instructions to emulate/build for device
 
+- To run my code, you should first have xcode downloaded on your Mac.
 - Open 'Xcode' then go to 'File' on the top of Mac taskbar and press 'Open...'
+- Click on my folder 'SIT305-Assignment-2-New-master' from where you downloaded > SIT305-Assignment-2-New-master > SIT305-Assignment-2.xcodeproj > Open
+- To run the app in iOS simulators, you need to first select a simulator from the top left where it has a little Xcode logo. After choosing a simulator, for example you pick iPhone X, then click on "Play" - a dark grey triangle on the top left.
+- Now you can explore my game.
 
-- Click on my folder 'SIT305Project-master' from where you downloaded > Project2 > Project2.xcodeproj > Open
-# Directory layout
 
 
 
