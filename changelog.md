@@ -1,5 +1,7 @@
 # Nick comments 27/April
 - This is the new changelog for my project.
+# Nick comments 28/April
+- Data contents updated
 # Nick comments 29/April
 - Reading in a JSON file in swift has been implemented/Data sturcture needs a lot of work
 # Nick comments 30/April
@@ -26,3 +28,7 @@ Still working on:
 # Nick comments 6/May
 - Inventory page in progress
 - Data structure in progress
+# Nick comments 17/May
+- Final version of project
+- Bugs free and game runs as expected
+- UI may need to refine
