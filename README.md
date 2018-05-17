@@ -12,10 +12,15 @@
 
 # Major features
 - Audio
+Audio was enabled in this app to load mp3 file and play as background music throughout the game.
 - Load data from json file
+Data was loaded from loacl json file which could be easy to modify in the future.
 - Random number generator
+Random number generator was used to enables players randomly get water and meat.
 - Alert
+Alert was used to prompt player
 - Navigation controller
+Navigation controller was used to picture the map.
 
 # Github Link
 - https://github.com/yongxinx/SIT305-Assignment-2-New
