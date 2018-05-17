@@ -26,6 +26,10 @@ Navigation controller was used to picture the map.
 - https://github.com/yongxinx/SIT305-Assignment-2-New
 
 # Compile instructions to emulate/build for device
+
+- Open 'Xcode' then go to 'File' on the top of Mac taskbar and press 'Open...'
+
+- Click on my folder 'SIT305Project-master' from where you downloaded > Project2 > Project2.xcodeproj > Open
 # Directory layout
 
 
