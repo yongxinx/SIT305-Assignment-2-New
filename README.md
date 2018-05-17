@@ -12,5 +12,6 @@
 # Compile instructions to emulate/build for device
 # Directory layout
 # Github Link
+- https://github.com/yongxinx/SIT305-Assignment-2-New
 
 
