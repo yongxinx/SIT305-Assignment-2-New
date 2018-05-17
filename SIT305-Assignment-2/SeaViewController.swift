@@ -11,6 +11,7 @@ import UIKit
 class SeaViewController: UIViewController {
 
     @IBOutlet weak var waterLabel: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -24,16 +25,7 @@ class SeaViewController: UIViewController {
     }
     
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
+    // Function to enable player whether randomly get water or get nothing. If fail, alert pop up. If succeed, alert pop up as well and water's quantity in inventory increse by 1.
     @IBAction func onClickGetWater(_ sender: Any) {
         let getWaterSuccess = arc4random()%UInt32(2);
         if getWaterSuccess == 0 {

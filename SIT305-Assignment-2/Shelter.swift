@@ -11,6 +11,7 @@ import UIKit
 class Shelter: NSObject {
     static let userInventory = Shelter();
     
+    // Create inventory variables
     var meet = 0;
     var water = 0;
     var fish = 0;
@@ -21,8 +22,6 @@ class Shelter: NSObject {
         if meet < 0 {
             meet = 0
         }
-        
-        
     }
     
     public func editWater(quantity: NSInteger)  {
@@ -30,15 +29,11 @@ class Shelter: NSObject {
         if self.water < 0 {
             self.water = 0
         }
-        
-        
     }
     public func editWood(quantity: NSInteger)  {
         self.wood = self.wood + quantity;
         if self.wood < 0 {
             self.wood = 0
         }
-        
-        
     }
 }

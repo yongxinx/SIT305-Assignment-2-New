@@ -9,6 +9,7 @@
 import UIKit
 
 class ShelterViewController: UIViewController {
+    
     @IBOutlet weak var shelterLabel: UILabel!
     
     override func viewDidLoad() {
@@ -17,7 +18,6 @@ class ShelterViewController: UIViewController {
         // Do any additional setup after loading the view.
         self.title = "Shelter Page";
         
-        
     }
 
     override func didReceiveMemoryWarning() {
@@ -25,7 +25,7 @@ class ShelterViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-
+    // Function to navigate to the inventory page and display current inventory quantity.
     @IBAction func onClickInventory(_ sender: Any) {
         let displayText = "meet : \(Shelter.userInventory.meet) \n water : \(Shelter.userInventory.water) \n wood : \(Shelter.userInventory.wood)";
         

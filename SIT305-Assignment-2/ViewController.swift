@@ -12,7 +12,7 @@ import MediaPlayer
 
 class ViewController: UIViewController {
     
-    //outLets
+    //Outlets created
     @IBOutlet weak var gameChatLabel: UILabel!
     @IBOutlet weak var startBtn: UIButton!
     @IBOutlet weak var seaButton: UIButton!
@@ -24,7 +24,7 @@ class ViewController: UIViewController {
     var chatIndex = 0;
     var audioPlayer: AVAudioPlayer?
 
-
+// When the game launches, hide some buttons, load game chat data from json file and play background music.
     override func viewDidLoad() {
         super.viewDidLoad()
       
@@ -44,7 +44,7 @@ class ViewController: UIViewController {
     }
 
     
-    /// Read local json data.
+    /// Function to load and read local json data, then used to display game chat.
     func readGameChatData() {
         let path = Bundle.main.path(forResource: "gameChat", ofType: "json");
         if path != nil {
@@ -65,6 +65,7 @@ class ViewController: UIViewController {
         }
     }
     
+    // Function to load and gain access to the background music and called from videDidLoad function
     func playMusic() {
         let path = Bundle.main.path(forResource: "Sad-Cinematic", ofType: "mp3")
         let pathURL = NSURL.init(fileURLWithPath: path!)
@@ -79,6 +80,8 @@ class ViewController: UIViewController {
             audioPlayer?.play();
         }
     }
+    
+    // Function to display game chat in order when start button is clicked each time. When game chat is finished, all buttons to nevigate the map appear and start button is hidden.
     @IBAction func onClickStartGame(_ sender: UIButton) {
         sender.setTitle("Tap to continue...", for: .normal);
         if chatIndex < gamechatArray.count {
@@ -93,21 +96,26 @@ class ViewController: UIViewController {
             self.startBtn.isHidden = true;
         }
     }
+    
+    // Create navigation to the shelter scene
     @IBAction func onClickShelterButton(_ sender: Any) {
         let shelter = self.storyboard?.instantiateViewController(withIdentifier: "ShelterViewController");
         self.navigationController?.pushViewController(shelter!, animated: true);
     }
     
+    // Create navigation to the sea scene
     @IBAction func onClickSeaButton(_ sender: Any) {
         let sea = self.storyboard?.instantiateViewController(withIdentifier: "SeaViewController");
         self.navigationController?.pushViewController(sea!, animated: true);
     }
     
+    // Create navigation to the cave scene
     @IBAction func onClickCaveButton(_ sender: Any) {
         let cave = self.storyboard?.instantiateViewController(withIdentifier: "CaveViewController");
         self.navigationController?.pushViewController(cave!, animated: true);
     }
     
+    // Create navigation to the forest scene and set up conditons to enter, player can only enter once their inventory quantities meet requirements. When required inventories are not enough and they try to enter to the forest scene, alert will pop up.
     @IBAction func onClickForestButton(_ sender: Any) {
         if Shelter.userInventory.water >= 5 && Shelter.userInventory.meet >= 5{
             let forest = self.storyboard?.instantiateViewController(withIdentifier: "ForestViewController");

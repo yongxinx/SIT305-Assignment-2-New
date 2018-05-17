@@ -11,6 +11,7 @@ import UIKit
 class CaveViewController: UIViewController {
 
     @IBOutlet weak var meetLabel: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -23,16 +24,7 @@ class CaveViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
+    // Function to enable player whether randomly get meat or get nothing. If fail, alert pop up. If succeed, alert pop up as well and meat's quantity in inventory increse by 1.
     @IBAction func onClickGetMeat(_ sender: Any) {
         let getWaterSuccess = arc4random()%UInt32(2);
         if getWaterSuccess == 0 {
